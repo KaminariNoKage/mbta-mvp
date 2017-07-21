@@ -1,0 +1,32 @@
+
+#grid {
+    padding: 0 1em;
+    margin-top: 3em;
+    font-family: monospace;
+}
+
+.span-row {
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.row {
+	display: flex;
+	flex-wrap: nowrap;
+}
+.row.header {
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: orange 1px solid;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.row > div {
+	flex-basis: 0em;
+	flex-grow: 1;
+}
+.row > div.wide {
+	flex-grow: 2;
+}

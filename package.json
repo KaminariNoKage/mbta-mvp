@@ -1,0 +1,26 @@
+{
+  "name": "mbta",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.0",
+    "cookie-parser": "~1.4.1",
+    "express": "~4.13.4",
+    "express-session": "~1.13.0",
+    "method-override": "~2.3.5",
+    "morgan": "~1.6.1",
+    "promise": "^7.1.1",
+    "serve-favicon": "~2.3.0"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "author": "Kai Austin",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
